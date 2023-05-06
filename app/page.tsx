@@ -29,7 +29,7 @@ export default async function Home() {
   return (
     <main>
       {products.map((product) => (
-        <Product />
+        <Product {...product} />
       ))}
     </main>
   );

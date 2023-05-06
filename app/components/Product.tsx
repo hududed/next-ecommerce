@@ -1,7 +1,7 @@
-export default function Product() {
+export default function Product({ name, image, price }) {
   return (
     <div>
-      <h1>Product</h1>
+      <h1>{name}</h1>
     </div>
   );
 }
